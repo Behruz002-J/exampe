@@ -38,4 +38,4 @@ console.log(arr[i]);
 console.log(kvadrat(M));
 
 const N = 3;
-console.log(arr{N});
+console.log(arr[5]);
