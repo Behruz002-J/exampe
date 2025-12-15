@@ -15,21 +15,27 @@
 // }
 
 //2---
-let N = 12;
-let sum = 0;
-for(let i = 0; i <= N; i++) {
-    if(i % 2 === 0) {
-    sum = sum + i;
-    }
-}
-console.log(sum);
+// let N = 12;
+// let sum = 0;
+// for(let i = 0; i <= N; i++) {
+//     if(i % 2 === 0) {
+//     sum = sum + i;
+//     }
+// }
+// console.log(sum);
 
 //3---
-let M  = [1, 3, 4, 6, 7, 9];
- let kv = 0;
-for(let i = 0; i <= M; i++) {
-    if(i % 2 ==1) {
-        kv = i** 2;
+const  arr = [N]
+function kvadrat(M) {
+    for(let i = 0; i <= arr.length -1; i++) {
+if(M % 2 === 1) {
+    kvadrat.push(i * i);
+}
+console.log(arr[i]);
+
     }
 }
-console.log(kv);
+console.log(kvadrat(M));
+
+const N = 3;
+console.log(arr{N});
